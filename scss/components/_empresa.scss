@@ -1,0 +1,83 @@
+.cab {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: $verde_claro; 
+}
+
+.menu-btn {
+  display: flex;
+}
+
+.menu-btn button {
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  width: 100%;    
+  margin: -4px 50px -15px 0;
+}
+
+.submenu {
+  background-color: $verde_claro;
+  display: none;
+  margin: 0 3px 100px 50px;
+}
+
+.menu-btn:hover .submenu {
+  display: block;
+}
+
+.submenu button {
+  width: 100%;
+  text-align: center;
+  padding: 8px 7px 11px 12px;
+  border: 0px;
+  border-radius: 20px;
+  background-color: #a9a9a9;
+  cursor: pointer;
+  overflow-x: hidden;
+  margin: 27px 3px 11px 5px;
+}
+
+  .profile-btn button,
+  .options-btn button {
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .options-btn {
+    margin-left: auto;
+  }
+  
+  .profile-btn {
+    margin: 0 auto;
+  }
+
+  .profile-btn {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .suaemp{
+    margin: 30px 20px 20px 50px;
+  }
+
+  .buttonX {
+    display: absolute;
+    background-color: $verde_claro;
+    color: $preto;
+    font-size: 25px;
+    padding: 15px 23px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+    margin: 21px 0 20px 30px;
+  }
+
+
+  
